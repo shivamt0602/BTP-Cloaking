@@ -1,0 +1,407 @@
+URL: Twisted URLs
+Error: Invalid URL 'Twisted URLs': No schema supplied. Perhaps you meant http://Twisted URLs?
+
+URL: https://zpple.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://apple.uk
+Number of HREFs (Googlebot): 105
+Number of HREFs (Normal): 105
+
+URL: https://apple.co
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://spple.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://applw.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://wpple.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://aapple.com
+Error: HTTPSConnectionPool(host='aapple.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)')))
+
+URL: https://pple.com
+Error: HTTPSConnectionPool(host='lapoo.net', port=443): Max retries exceeded with url: /l1_61 (Caused by SSLError(SSLError(1, '[SSL: DH_KEY_TOO_SMALL] dh key too small (_ssl.c:1129)')))
+
+URL: https://applr.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://2pple.com
+HTTP Error: 404 Client Error: Not Found for url: https://2pple.com/
+
+URL: https://ȧpple.com
+(xn--pple-pzb.com)
+Error: HTTPSConnectionPool(host='xn--pple-pzb.com%0a(xn--pple-pzb.com)', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f54650b2070>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+URL: https://appl3e.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://applo.com
+HTTP Error: 404 Client Error: Not Found for url: https://applo.com/
+
+URL: https://appls.com
+HTTP Error: 404 Client Error: Not Found for url: https://appls.com/
+
+URL: https://appl3.com
+HTTP Error: 404 Client Error: Not Found for url: https://appl3.com/
+
+URL: https://applde.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://appl-e.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://applz.com
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+URL: https://applȩ.com
+(xn--appl-3zb.com)
+Error: HTTPSConnectionPool(host='xn--appl-3zb.com%0a(xn--appl-3zb.com)', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f546552c250>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+URL: https://apple3.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://applê.com
+(xn--appl-jpa.com)
+Error: HTTPSConnectionPool(host='xn--appl-jpa.com%0a(xn--appl-jpa.com)', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f546583fbe0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+URL: https://appl4.com
+Error: HTTPSConnectionPool(host='appl4.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+URL: https://appla.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://appli.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://applwe.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://applex.com
+Error: HTTPSConnectionPool(host='applex.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5465033040>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))
+
+URL: https://apple4.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://applm.com
+Error: HTTPSConnectionPool(host='applm.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5465033970>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))
+
+URL: https://applre.com
+Error: HTTPSConnectionPool(host='applre.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'applre.com' doesn't match 'mail.routelab.com'")))
+
+URL: https://appl.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://applse.com
+Error: HTTPSConnectionPool(host='applse.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'applse.com' doesn't match either of '*.myorderbox.com', 'myorderbox.com'")))
+
+URL: https://apples.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://appler.com
+HTTP Error: 404 Client Error: Not Found for url: https://appler.com/
+
+URL: https://appleq.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://applc.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://applg.com
+Error: HTTPSConnectionPool(host='applg.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5464fcc640>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+URL: https://appley.com
+Error: HTTPSConnectionPool(host='appley.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'appley.com' doesn't match 'airwho.com'")))
+
+URL: https://applev.com
+Error: HTTPSConnectionPool(host='applev.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'applev.com' doesn't match either of '5.vip', 'www.5.vip'")))
+
+URL: https://applew.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://applej.com
+Error: HTTPSConnectionPool(host='applej.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+
+URL: https://applet.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://appleu.com
+Error: HTTPSConnectionPool(host='appleu.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'appleu.com' doesn't match either of '5.vip', 'www.5.vip'")))
+
+URL: https://applep.com
+Error: HTTPSConnectionPool(host='applep.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'applep.com' doesn't match either of '5.vip', 'www.5.vip'")))
+
+URL: https://applem.com
+Error: HTTPSConnectionPool(host='applem.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'applem.com' doesn't match either of '5.vip', 'www.5.vip'")))
+
+URL: https://appleh.com
+Error: HTTPSConnectionPool(host='appleh.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'appleh.com' doesn't match either of '5.vip', 'www.5.vip'")))
+
+URL: https://applez.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://appleb.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://applen.com
+Number of HREFs (Googlebot): 2
+Number of HREFs (Normal): 2
+
+URL: https://applel.com
+HTTP Error: 439 Client Error: status code 439 for url: https://applel.com/
+
+URL: https://applef.com
+Error: HTTPSConnectionPool(host='applef.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+URL: https://appleg.com
+Number of HREFs (Googlebot): 8
+Number of HREFs (Normal): 8
+
+URL: https://applek.com
+Number of HREFs (Googlebot): 116
+Number of HREFs (Normal): 116
+
+URL: https://appke.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://applec.com
+Error: HTTPSConnectionPool(host='applec.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1129)')))
+
+URL: https://appled.com
+Error: HTTPSConnectionPool(host='appled.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'appled.com' doesn't match 'sh1.hostrocket.com'")))
+
+URL: https://appel.com
+Number of HREFs (Googlebot): 1
+Number of HREFs (Normal): 1
+
+URL: https://app.le.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://apppe.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://appleo.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://appoe.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://applpe.com
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+URL: https://apploe.com
+Number of HREFs (Googlebot): 1
+Number of HREFs (Normal): 1
+
+URL: https://appme.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://appe.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://appde.com
+Error: HTTPSConnectionPool(host='appde.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5464c45be0>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))
+
+URL: https://app1e.com
+Error: HTTPSConnectionPool(host='app1e.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5464c45b20>: Failed to establish a new connection: [Errno -5] No address associated with hostname'))
+
+URL: https://apole.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://applle.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://aplle.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://aplpe.com
+Number of HREFs (Googlebot): 2
+Number of HREFs (Normal): 2
+
+URL: https://ap0le.com
+Error: HTTPSConnectionPool(host='ap0le.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f54649455e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+URL: https://applke.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://appkle.com
+Error: HTTPSConnectionPool(host='appkle.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+
+URL: https://apphe.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://alple.com
+HTTP Error: 404 Client Error: Not Found for url: https://alple.com/
+
+URL: https://appie.com
+Error: HTTPSConnectionPool(host='appie.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+URL: https://aple.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://a.pple.com
+Error: HTTPSConnectionPool(host='a.pple.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'a.pple.com' doesn't match either of 'pple.com', 'www.pple.com'")))
+
+URL: https://a0pple.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://apmle.com
+Number of HREFs (Googlebot): 64
+Number of HREFs (Normal): 64
+
+URL: https://appne.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://ap-ple.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://ample.com
+Number of HREFs (Googlebot): 35
+Number of HREFs (Normal): 35
+
+URL: https://appple.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://apqle.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://a0ple.com
+Error: HTTPSConnectionPool(host='a0ple.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5464d25940>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+URL: https://appole.com
+Error: HTTPSConnectionPool(host='appole.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'appole.com' doesn't match 'rpm.namecontrol.com'")))
+
+URL: https://aople.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://login-apple.com
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+URL: https://aplple.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://alpple.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://ampple.com
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+URL: https://apople.com
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://axple.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://aopple.com
+Number of HREFs (Googlebot): 1
+Number of HREFs (Normal): 1
+
+URL: https://apple.fit
+Error: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+URL: https://apple.buzz
+Number of HREFs (Googlebot): 152
+Number of HREFs (Normal): 152
+
+URL: https://apple.net
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://apple.info
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://apple.in
+Number of HREFs (Googlebot): 99
+Number of HREFs (Normal): 99
+
+URL: https://apple.cn
+Number of HREFs (Googlebot): 91
+Number of HREFs (Normal): 91
+
+URL: https://apple.ru
+Number of HREFs (Googlebot): 67
+Number of HREFs (Normal): 67
+
+URL: https://wwwapple.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://atple.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://ypple.com
+Error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+URL: https://wwapple.com
+Number of HREFs (Googlebot): 0
+Number of HREFs (Normal): 0
+
+URL: https://ạpple.com
+(xn--pple-4q5a.com)
+Error: HTTPSConnectionPool(host='xn--pple-4q5a.com%0a(xn--pple-4q5a.com)', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5465494d90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+URL: https://auth-apple.com
+Error: HTTPSConnectionPool(host='auth-apple.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1129)')))
+
+URL: https://apple.de
+Number of HREFs (Googlebot): 102
+Number of HREFs (Normal): 102
+
+URL: https://apple.com
+Number of HREFs (Googlebot): 113
+Number of HREFs (Normal): 113
+
+URL: https://www-apple.com
+HTTP Error: 403 Client Error: Forbidden for url: https://www-apple.com/
+
+URL: https://paple.com
+HTTP Error: 404 Client Error: Not Found for url: https://paple.com/
+
+URL: https://upple.com
+Error: HTTPSConnectionPool(host='upple.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'upple.com' doesn't match either of '*.xrea.com', 'xrea.com'")))
+
+URL: https://opple.com
+Error: HTTPSConnectionPool(host='opple.co.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+
+URL: https://epple.com
+Error: HTTPSConnectionPool(host='epple.com', port=443): Max retries exceeded with url: / (Caused by SSLError(CertificateError("hostname 'epple.com' doesn't match either of '*.kasserver.com', 'kasserver.com'")))
+
+URL: https://åpple.com
+(xn--pple-poa.com)
+Error: HTTPSConnectionPool(host='xn--pple-poa.com%0a(xn--pple-poa.com)', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5465795cd0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+URL: https://ápple.com
+(xn--pple-4na.com)
+Error: HTTPSConnectionPool(host='xn--pple-4na.com%0a(xn--pple-4na.com)', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f5465795d90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
