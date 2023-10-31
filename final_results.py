@@ -2,73 +2,73 @@ import os
 import difflib
 import csv
 
-def compare_csv_files(file1_path, file2_path):
+def compare_html_files(file1_path, file2_path):
     with open(file1_path, 'r', encoding='utf-8') as file1, open(file2_path, 'r', encoding='utf-8') as file2:
         file1_content = file1.readlines()
         file2_content = file2.readlines()
 
-    # Compare content of CSV files
-    return file1_content == file2_content
+    # Use difflib to compare the content of the two files
+    d = difflib.Differ()
+    diff = list(d.compare(file1_content, file2_content))
 
-# Path to the folders containing HTML and CSV files
-bot_src_folder = 'Bot_src'
-normal_src_folder = 'Normal_src'
+    # Check if there are differences in the files
+    is_different = any(line.startswith('-') or line.startswith('+') for line in diff)
 
-# Output CSV file path
-csv_file_path = 'comparison_result.csv'
+    return is_different
 
-# Create a dictionary to store URL and corresponding CSV file paths
-url_to_csv = {}
+def create_comparison_results(bot_txt_folder, normal_txt_folder):
 
-# Extract common part of CSV filenames and store in the dictionary
-for filename in os.listdir(bot_src_folder):
-    if filename.endswith('_srcs.csv'):
-        url = filename.split('_srcs')[0]
-        bot_csv_path = os.path.join(bot_src_folder, filename)
-        normal_csv_path = os.path.join(normal_src_folder, filename)
-        url_to_csv[url] = (bot_csv_path, normal_csv_path)
+    results = []
+    seen_urls = set()
 
-# Read existing CSV data to avoid overwriting existing entries
-existing_data = []
-if os.path.exists(csv_file_path):
-    with open(csv_file_path, 'r', encoding='utf-8') as csvfile:
-        reader = csv.DictReader(csvfile)
-        existing_data = list(reader)
+    # Iterate through files in both folders and compare files with the same names
+    for filename in os.listdir(bot_txt_folder):
+        value_list = [0] * 4  # Initialize the list with 4 zeros
+        bot_file_path = os.path.join(bot_txt_folder, filename)
+        normal_file_path = os.path.join(normal_txt_folder, filename)
 
-# Create a list to store comparison results
-results = []
+        url = filename.split('_content')[0]
 
-# Iterate through URLs and compare corresponding CSV files
-for url, (bot_csv_path, normal_csv_path) in url_to_csv.items():
-    # Check if URL is already in existing data
-    existing_entry = next((item for item in existing_data if item['url'] == url), None)
-    if existing_entry:
-        html_result = int(existing_entry['html_result'])
-        src_result = int(existing_entry['src_result'])
-    else:
-        html_result = 0
-        src_result = 0
+        # Compare files only if they exist in both folders
+        if os.path.isfile(bot_file_path) and os.path.isfile(normal_file_path):
+            if url not in seen_urls:
+                is_different = compare_html_files(bot_file_path, normal_file_path)
+                # Update the list values based on comparison result
+                value_list[0] = -1 if is_different else 1  # html_result
+                # Add the URL to seen_urls set
+                seen_urls.add(url)
 
-    # Compare CSV files
-    csv_diff = compare_csv_files(bot_csv_path, normal_csv_path)
+                # Append the values to the results list
+                results.append({'url': url, 'html_result': value_list[0], 
+                                'src_result': value_list[1], 'link_result': value_list[2], 'photos_result': value_list[3]})  
 
-    # Update src_result based on CSV comparison
-    if csv_diff:
-        src_result = -1
-    else:
-        src_result = 1
+      #write the below code in the same way but check for two folders named Bot_src and Normal_src in these fiind out the same two csvs and compare if these two csvs are  same or not if not same then add -1 to the first index of the value_list                       
 
-    # Add or update entry in results
-    result_entry = {'url': url, 'html_result': html_result, 'src_result': src_result}
-    results.append(result_entry)
+    
 
-# Write results to CSV file
-with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
-    fieldnames = ['url', 'html_result', 'src_result']
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    return results
 
-    writer.writeheader()
-    for result in results:
-        writer.writerow(result)
+def write_to_csv(results, csv_file_path):
+    with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['url', 'html_result', 'src_result', 'link_result', 'photos_result']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-print("Comparison results have been saved to", csv_file_path)
+        writer.writeheader()
+        for result in results:
+            writer.writerow(result)
+
+
+if __name__ == "__main__":
+    # Path to the folders containing HTML files
+    bot_txt_folder = 'Bot_text'
+    normal_txt_folder = 'Normal_text'
+    # Output CSV file path
+    csv_file_path = 'comparison_results.csv'
+    
+    # Create comparison results
+    results = create_comparison_results(bot_txt_folder, normal_txt_folder)
+
+    # Write results to CSV file
+    write_to_csv(results, csv_file_path)
+
+    print("Comparison results have been saved to", csv_file_path)
